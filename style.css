@@ -1,7 +1,8 @@
 body {
-  width: 100%;
+  width: 99%;
   background: #FFF;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: auto;
 }
 /* Logomarca */
 #logo {
@@ -28,29 +29,53 @@ body {
   position: absolute;
 }
 /* Menu */
-ul {
+#menu ul {
   list-style: none;
   height: 20px;
   width: 100%;
   text-align: center;
   padding-top: 120px;
 }
-ul li  {
-  
+#menu ul li {
   width: 20px;
   height: 80px;
   display: inline;
   padding: 10px;
   background-color: #aa4431;
 }
-li a {
-  border: 1px red solid;
+#menu li a {
   text-decoration: none;
   color: #FFF;
   
 }
-ul li:hover {
+#menu ul li:hover {
   background-color: rgb(248, 165, 165);
   color: #FFF;
 }
-
+#tudo {
+  border: 1px red solid;
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+/* Entrevista */
+#areaesquerda {
+  border: 1px red solid;
+  float: left;
+  width: 20%;
+  
+}
+#linksentrevistas {
+  list-style: none;
+}
+/* Conteudo */
+#areaconteudo {
+  float: right;
+  width: 75%;
+  
+}
+/* Rodapé */
+#arearodape {
+  clear: both;
+  background-color: #cecece;
+}

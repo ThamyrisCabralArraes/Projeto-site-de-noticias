@@ -59,7 +59,6 @@ body {
 }
 /* Entrevista */
 #areaesquerda {
-  border: 1px red solid;
   float: left;
   width: 20%;
   padding: 0;
@@ -127,7 +126,7 @@ body {
 h4 {
   background-color: #b64444;
   color: #FFF;
-  width: 260px;
+  width: 215px;
   padding: 5px 5px;
 }
 /* Rodapé */

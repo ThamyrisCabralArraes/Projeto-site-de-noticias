@@ -1,8 +1,12 @@
+
 body {
-  width: 99%;
+  width: 95%;
   background: #FFF;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: auto;
+  margin: 0 auto;
+}
+img {
+  overflow: hidden;
 }
 /* Logomarca */
 #logo {
@@ -113,14 +117,15 @@ body {
 }
 .meio {
   width: 300px;
-  height: 500px;
-  padding: 20px;
+  height: 900px;
+  padding: 0 10px;
+  float: left;
 }
 .meio h3 {
   background-color: #225992;
   color: #FFF;
   color: #FFF;
-  width: 90%;
+  width: 300px;
   padding: 5px 5px;
 }
 h4 {
@@ -129,8 +134,60 @@ h4 {
   width: 215px;
   padding: 5px 5px;
 }
+.leiamais a {
+  text-decoration: none;
+  color: #225992;
+  padding: 0 10px;
+}
+.leiamais a:hover {
+  color: #aa4431;
+}
+.texto {
+  width: 300px;
+  padding: 0 5px;
+  font-weight: 700;
+}
+.fotomundo {
+  float: left;
+  padding: 0 10px;
+}
+.linkfoto a {
+  text-decoration: none;
+  color: #105069;
+  font-size: 13px;
+  padding: 0 5PX;
+}
+.linkfoto a:hover {
+  color: #aa4431;
+}
+.texto2 {
+  font-size: 14px;
+  padding: 0 5PX;
+}
+.conteudodireito {
+  float: right;
+  width: 300px;
+  height: 900px;
+  padding: 0 10px;
+  margin-right: 400px;
+}
+.conteudodireito h3 {
+  background-color: #225992;
+  color: #FFF;
+  color: #FFF;
+  width: 300px;
+  padding: 5px 5px;
+}
 /* Rodapé */
 #arearodape {
   clear: both;
-  background-color: #cecece;
+  background-color: #225992;
+  color: #FFF;
+  text-align: left;
+  font-weight: 700;
+  padding: 20px 100px;
+  height: 30px;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
 }
